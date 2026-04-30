@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gtc-d1-dbmigrations",
+  "main": "src/index.ts", // This is a placeholder, you can leave it
+  "compatibility_date": "2026-04-30",
+  "d1_databases": [
+    {
+      "binding": "DB", 
+      "database_name": "globbie-db",
+      "database_id": "fb970fb6-d106-46c3-bc58-1a5ce4bf0320" // Replace with your actual ID
+    }
+  ]
+}
