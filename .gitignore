@@ -37,3 +37,4 @@ dist/
 
 # Build output
 build/
+*.my-local.*
